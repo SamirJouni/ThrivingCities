@@ -29,10 +29,18 @@ input:focus {
 }
 
 .hero {
-  background: url('../Thriving\ Cities\ Designs/ThrivingCities.svg') no-repeat top center;
+  background: url('../Thriving\ Cities\ Designs/heroImageEnhanced.svg');
+  background-repeat: no-repeat;
+  background-position: center top;
   background-size: contain;
   width: 100%;
   height: 200vh;
+  border:0;
+}
+#logo {
+    width: 25vw;
+    height: auto;
+    margin-left: 1rem;
 }
 .events {
     width: 100%;
@@ -41,7 +49,7 @@ input:focus {
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
 	/* IE Copatibility Fixes */
     .hero {
-		height: 107vh; /* To Scale The SVG Properly in IE */
+		height: 105.5vh; /* To Scale The SVG Properly in IE */
 	}
 }
 @media all and (min-width: 700px) and (max-width: 800px) {
