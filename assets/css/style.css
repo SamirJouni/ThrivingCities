@@ -77,30 +77,30 @@ input:focus {
   content: '';
   position: absolute;
   width: 0%;
-  height: .2rem;
+  height: .5vh;
   top: 50%;
-  margin-top: -0.5px;
+  margin-top: -0.05vh;
   background: #000;
 }
 
 .navbar a:before {
-  left: -2.5px;
+  left: -.2vw;
 }
 .navbar a:after {
-  right: 2.5px;
+  right: .5vw;
   background: #000;
   transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 .navbar a:hover:before {
   background: #000;
-  width: 90%;
+  width: 95%;
   transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 .navbar a:hover:after {
   background: transparent;
-  width: 90%;
+  width: 95%;
   transition: 0s;
 }
 .events {
