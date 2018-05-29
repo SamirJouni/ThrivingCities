@@ -42,6 +42,9 @@ input:focus {
     height: auto;
     margin-left: 1rem;
 }
+#logo:hover {
+    cursor: pointer;
+}
 .events {
     width: 100%;
     height: 200vh;
