@@ -5,7 +5,12 @@ font-family: 'Open Sans', sans-serif;
 
 */
 
-/* Some Boilerplate Code That I usually use in projects*/
+/*
+
+Some Boilerplate Code That I usually use in projects To Prevent
+Unexpected Behavior From Browsers' User Agent Style Sheet.
+
+*/
 
 html, body {
   margin: 0;
@@ -38,6 +43,7 @@ input:focus {
   height: 200vh;
   border: 0;
 }
+
 .header {
   width: 100%;
   height: auto;
@@ -46,6 +52,7 @@ input:focus {
   align-items: flex-start;
   justify-content: space-between;
 }
+
 #logo {
   width: 25vw;
   height: auto;
@@ -55,11 +62,14 @@ input:focus {
 #logo:hover {
   cursor: pointer;
 }
+
+/* Navbar positioning and styling */
+
 .navbar {
   padding-top: 1vh;
-
 }
-.navbar a{
+
+.navbar a {
   color: #000000;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
@@ -69,10 +79,14 @@ input:focus {
   padding-right: .6vw;
   transition: text-decoration 1s ease-in-out;
 }
+
 .navbar a {
   position: relative;
   cursor: pointer;
 }
+
+/* Navbar Strike-Through Animation styling*/
+
 .navbar a:before, .navbar a:after {
   content: '';
   position: absolute;
@@ -86,6 +100,7 @@ input:focus {
 .navbar a:before {
   left: -.2vw;
 }
+
 .navbar a:after {
   right: .5vw;
   background: #000;
@@ -103,6 +118,9 @@ input:focus {
   width: 95%;
   transition: 0s;
 }
+
+/* events */
+
 .events {
   width: 100%;
   height: 200vh;
