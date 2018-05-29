@@ -26,7 +26,7 @@ html, body {
   -ms-user-select: none;
 }
 
-input:focus {
+*:focus {
   outline: none;
 }
 
@@ -119,7 +119,40 @@ input:focus {
   transition: 0s;
 }
 
-/* events */
+/*
+  This Is The Styling For The Invitation Line On The Hero Division
+*/
+
+.invitation {
+  margin-top: 31vh;
+  margin-left: 8vw;
+}
+.invitationLine {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3vw;
+  color: #ffffff;
+}
+.subscribeButton {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2vw;
+  font-weight: 100;
+  letter-spacing: .1vw;
+  margin-top: 16vh;
+  margin-left: 24vw;
+  padding: 2.3vh 3vw;
+  background: #000000;
+  color: #ffffff;
+  border: .13vw solid #ffffff;
+  border-radius: 50vw;
+  transition: background .8s ease-out, color .5s ease-out;
+}
+.subscribeButton:hover {
+  background: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  border-color: #000000;
+}
+/* Events */
 
 .events {
   width: 100%;
