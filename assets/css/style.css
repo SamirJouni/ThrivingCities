@@ -6,26 +6,27 @@ font-family: 'Open Sans', sans-serif;
 */
 
 /* Some Boilerplate Code That I usually use in projects*/
+
 html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: auto;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
 }
 
 * {
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 input:focus {
-    outline: none;
+  outline: none;
 }
 
 ::placeholder {
-     opacity: 1;
+  opacity: 1;
 }
 
 .hero {
@@ -35,38 +36,49 @@ input:focus {
   background-size: contain;
   width: 100%;
   height: 200vh;
-  border:0;
+  border: 0;
 }
+
 #logo {
-    width: 25vw;
-    height: auto;
-    margin-left: 1rem;
+  width: 25vw;
+  height: auto;
+  margin-left: 1rem;
 }
+
 #logo:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
+
 .events {
-    width: 100%;
-    height: 200vh;
+  width: 100%;
+  height: 200vh;
 }
+
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-	/* IE Copatibility Fixes */
-    .hero {
-		height: 105.5vh; /* To Scale The SVG Properly in IE */
-	}
+  /* IE Copatibility Fixes */
+  .hero {
+    height: 105.5vh;
+    /* To Scale The SVG Properly in IE */
+  }
 }
+
 @media all and (min-width: 700px) and (max-width: 800px) {
-	.hero {
-		height: 100vh; /* To Scale The SVG Properly on that screen size in IE */
-	}
+  .hero {
+    height: 100vh;
+    /* To Scale The SVG Properly on that screen size in IE */
+  }
 }
+
 @media all and (min-width: 801px) and (max-width: 1024px) {
-	.hero {
-		height: 70vh; /* To Scale The SVG Properly on that screen size in IE */
-	}
+  .hero {
+    height: 70vh;
+    /* To Scale The SVG Properly on that screen size in IE */
+  }
 }
+
 @media all and (min-width: 1920px) and (max-width: 1440px) {
-		.hero {
-		height: 100vh; /* To Scale The SVG Properly on that screen size in IE */
-	}
+  .hero {
+    height: 100vh;
+    /* To Scale The SVG Properly on that screen size in IE */
+  }
 }
