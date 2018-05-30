@@ -181,8 +181,12 @@ html, body {
   flex-wrap: nowrap;
   align-items: flex-start;
   justify-content: center;
-  box-shadow: 0 1vh 2vh 0 rgba(0, 0, 0, 0.2), 0 .8vh 4vh 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 1vh 2vh 0 rgba(0, 0, 0, 0.2), 0 .9vh 4vh 0 rgba(0, 0, 0, 0.19);
   width: 90%;
+  transition: all .2s ease-in-out;
+}
+.event:hover {
+  box-shadow: 0 1vh 2vh .1vh rgba(0, 0, 0, 0.23), 0 .9vh 4vh .2vh rgba(0, 0, 0, 0.21);
 }
 .eventImage img{
   max-width:20vw;
@@ -231,6 +235,44 @@ html, body {
 .readMore:hover {
  cursor: pointer;
  text-decoration: underline;
+}
+.zoomInOut {
+  animation: zoominout .3s forwards;
+}
+@keyframes zoominout {
+    0% {
+        transform: scale(.95);
+    }
+    10% {
+        transform: scale(.955);
+    }
+    20% {
+        transform: scale(.96);
+    }
+    30% {
+      transform: scale(.965);
+    }
+    40% {
+        transform: scale(.97);
+    }
+    50% {
+        transform: scale(.975);
+    }
+    60% {
+        transform: scale(.98);
+    }
+    70% {
+        transform: scale(.985);
+    }
+    80% {
+        transform: scale(.99);
+    }
+    90% {
+        transform: scale(.995);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   /* IE Copatibility Fixes */
