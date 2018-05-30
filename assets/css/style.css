@@ -40,7 +40,7 @@ html, body {
   background-position: center top;
   background-size: contain;
   width: 100%;
-  height: 200vh;
+  height: auto;
   border: 0;
 }
 
@@ -145,25 +145,101 @@ html, body {
   border: .13vw solid #ffffff;
   border-radius: 50vw;
   transition: background .8s ease-out, color .5s ease-out;
+  margin-bottom: 18vw;
 }
 .subscribeButton:hover {
   background: #ffffff;
   color: #000000;
   cursor: pointer;
-  border-color: #000000;
+  border-color: rgba(0,0,0,0);
 }
 /* Events */
 
-.events {
+.eventsContainer {
   width: 100%;
+  height: auto;
+}
+.eventsLine p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 5vw;
+  color: #000000;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20vh;
+}
+.events {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
   height: 200vh;
 }
-
+.event {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: center;
+  box-shadow: 0 1vh 2vh 0 rgba(0, 0, 0, 0.2), 0 .8vh 4vh 0 rgba(0, 0, 0, 0.19);
+  width: 90%;
+}
+.eventImage img{
+  max-width:20vw;
+  max-height:28vh;
+  width: auto;
+  height: auto;
+}
+.eventTextContainer {
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  padding: .5vh 1vw;
+}
+.eventTitle {
+  font-size: 2vw;
+  font-weight: 100;
+  padding-bottom: .3vh;
+}
+.eventDetails {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1vh 0;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #000;
+  font-size: 1.3vw;
+}
+.description {
+  padding-top: 3vh;
+  font-size: 1.4vw;
+}
+.readMore {
+  padding-top: 2vh;
+  font-size: 1.1vw;
+  color: #000;
+  width: 10%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.readMore:hover {
+ cursor: pointer;
+ text-decoration: underline;
+}
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   /* IE Copatibility Fixes */
   .hero {
     height: 105.5vh;
     /* To Scale The SVG Properly in IE */
+  }
+  .eventsLine p{
+    margin-top: 6vh;
   }
 }
 
