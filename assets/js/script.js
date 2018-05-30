@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
   logo.addEventListener('click', function() {
     window.location.href = "http://thrivingcities.com/";
   });
+
   /* Event Animation */
   const events = Array.from(document.getElementsByClassName('event'));
   events.forEach(function(event) {
@@ -24,15 +25,9 @@ document.addEventListener('DOMContentLoaded', function(event) {
     setTimeout(function() {
       subscribeButton.classList.remove('zoomInOut');
     }, 300);
-  });
-
-  /* Event Listener To Expand an Event on Button CLick */
-  const readMore = Array.from(document.getElementsByClassName('readMore'));
-  readMore.forEach(function(readmore) {
-    readmore.addEventListener('click', function() {
-
-
-    });
+    /* This Redirects To Mailchimp When The Button Is Clicked */
+    window.location.href =
+      'http://iasc-culture.us11.list-manage.com/subscribe/post?u=0bd38571820ea697cfb101c21&id=618afc487a';
   });
 
 });
