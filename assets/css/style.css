@@ -442,3 +442,35 @@ html, body {
     margin-top: 2vw;
   }
 }
+
+/* Mobile Responsive Design */
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+  .hero {
+    background: #000000;
+    margin-bottom: 6vw;
+  }
+  #logo {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .navbar {
+    display: none;
+  }
+  .invitation {
+    margin-top: 15vw;
+    margin-left: 0;
+    text-align: center;
+  }
+  .invitationLine {
+    font-size: 5vw;
+  }
+  .subscribeButton {
+    font-size: 3vw;
+    margin-top: 10vw;
+    margin-left: 0;
+    padding: 2vw 4vw;
+    border-width: .2vw;
+    margin-bottom: 7vw;
+}
+}
