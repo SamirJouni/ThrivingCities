@@ -399,6 +399,9 @@ html, body {
   left: 14vw;
   z-index: 10;
 }
+.submit:hover {
+  cursor: pointer;
+}
 .copyright {
   margin-top: 2vw;
 }
