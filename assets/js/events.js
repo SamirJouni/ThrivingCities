@@ -23,6 +23,13 @@ document.addEventListener('DOMContentLoaded', function(event) {
 
     /* Sign Up Button Redirect On Click */
     button.addEventListener('click', function () {
+
+      /* Sign Up Button Animation*/
+      button.classList.add('zoomInOut');
+      setTimeout(function() {
+        button.classList.remove('zoomInOut');
+      }, 300);
+
       window.location.href =
       'http://iasc-culture.us11.list-manage.com/subscribe/post?u=0bd38571820ea697cfb101c21&id=618afc487a';
     });
