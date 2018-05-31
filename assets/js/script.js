@@ -15,8 +15,10 @@ document.addEventListener('DOMContentLoaded', function(event) {
       subscribeButton.classList.remove('zoomInOut');
     }, 300);
     /* This Redirects To Mailchimp When The Button Is Clicked */
-    window.location.href =
-      'http://iasc-culture.us11.list-manage.com/subscribe/post?u=0bd38571820ea697cfb101c21&id=618afc487a';
+    setTimeout(function(){
+      window.location.href =
+        'http://iasc-culture.us11.list-manage.com/subscribe/post?u=0bd38571820ea697cfb101c21&id=618afc487a';
+    }, 800);
   });
 
 });
