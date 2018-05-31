@@ -522,6 +522,12 @@ html, body {
     align-items: center;
     font-size: 5vw;
   }
+  .footer > #LINKS {
+    order:2;
+  }
+  .footer > #INITIATIVE {
+    order:2;
+  }
   .footerMarginRight {
     margin-right: 0;
   }
