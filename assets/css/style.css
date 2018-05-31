@@ -520,7 +520,7 @@ html, body {
     flex-direction: column-reverse;
     flex-wrap: nowrap;
     align-items: center;
-    font-size: 4vw;
+    font-size: 5vw;
   }
   .footerMarginRight {
     margin-right: 0;
@@ -531,6 +531,11 @@ html, body {
   .footerLinks {
     align-items: center;
   }
+  .footerLinks span,
+  .footerLinks a,
+  .footerLinks input {
+    margin: 1.5vw 0;
+  }
   .footerPadding {
     padding: 4vw;
   }
@@ -539,7 +544,8 @@ html, body {
   }
   .emailInput {
     padding: 2vw 2vw;
-    font-size: 3vw;
+    font-size: 5vw;
     width: 100%;
+    text-align: center;
   }
 }
