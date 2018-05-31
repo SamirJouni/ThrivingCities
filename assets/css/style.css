@@ -378,15 +378,26 @@ html, body {
     border: .13vw solid #ffffff;
     background: #000000;
     padding: .6vw 1vw;
+    padding-right: 3vw;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     font-size: 1.1vw;
-    width: 15vw;
+    width: 13vw;
     color: #ffffff;
     caret-color: #ffffff;
 }
 .emailInput::placeholder {
   color: #ffffff;
+}
+.submit {
+  color: #ffffff;
+  background: rgba(0,0,0,0);
+  border:0;
+  font-size: 2vw;
+  position: relative;
+  top: -2.9vw;
+  left: 14vw;
+  z-index: 10;
 }
 /*.emailInputWrapper::before{
   font-family: FontAwesome;
@@ -556,7 +567,11 @@ html, body {
     padding: 2vw 2vw;
     font-size: 5vw;
     width: 100%;
-    text-align: center;
+  }
+  .submit {
+    font-size: 9vw;
+    top: -13.4vw;
+    left: 53.4vw;
   }
   .copyright {
     margin-top: 8vw;
