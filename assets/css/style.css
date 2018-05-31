@@ -565,13 +565,14 @@ html, body {
   }
   .emailInput {
     padding: 2vw 2vw;
+    padding-right: 15vw;
     font-size: 5vw;
-    width: 100vw;
+    width: 55vw;
   }
   .submit {
-    font-size: 9vw;
+    font-size: 11vw;
     top: -15vw;
-    left: 56vw;
+    left: 60vw;
   }
   .copyright {
     margin-top: 8vw;
