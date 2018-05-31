@@ -1,7 +1,7 @@
 function smoothScrollTo(destination, duration) {
   "use strict";
 
-  duration = duration ? duration : 1600;
+  duration = duration ? duration : 800;
   var failCounter = 0;
   var isFunctionRunning = false;
 
