@@ -187,7 +187,7 @@ html, body {
   align-items: center;
   justify-content: space-between;
   height: auto;
-  margin-bottom: 10vw;
+  margin-bottom: 4vw;
 }
 
 .event {
@@ -199,6 +199,7 @@ html, body {
   box-shadow: 0 .4vw .8vw 0 rgba(0, 0, 0, 0.2), 0 .3vw 1vw 0 rgba(0, 0, 0, 0.19);
   width: 90%;
   transition: all .2s ease-in-out;
+  margin-bottom: 6vw;
 }
 
 .event:hover {
@@ -259,6 +260,76 @@ html, body {
   cursor: pointer;
   text-decoration: underline;
 }
+/* Event Expanded */
+.eventTitleExpanded {
+  text-align: center;
+  font-size: 2.5vw;
+}
+.eventImageExpanded img{
+  max-width: 25vw;
+  max-height: 25vw;
+}
+.eventsPadding {
+  padding-top: 1vw;
+}
+.eventDescriptionTitle {
+  font-weight: 900;
+  font-size: 1.5vw;
+}
+.eventDetailsExpanded {
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  font-size: 1.3vw;
+}
+.location,
+.dateAndTime,
+.website,
+.phoneNumber {
+  padding: .8vw 2vw;
+}
+.location p, .phoneNumber p {
+  margin: 0;
+}
+.website a{
+  font-family: inherit;
+  color: inherit;
+  font-size: inherit;
+  font-weight: 600;
+  text-decoration: none;
+}
+.website a:hover {
+  text-decoration: underline;
+}
+.signUpButtonWrapper {
+  display: flex;
+}
+.signUpButton {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2vw;
+  font-weight: 100;
+  letter-spacing: .1vw;
+  padding: 1.2vw 3vw;
+  background: #000000;
+  color: #ffffff;
+  border: .13vw solid #ffffff;
+  border-radius: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  transition: background .8s ease-out, color .5s ease-out;
+}
+
+.signUpButton:hover {
+  background: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  border-color: rgba(0, 0, 0, 0);
+}
+.dontDisplay {
+  display: none;
+}
+/* footer */
 .footer {
   display: flex;
   flex-direction: row;
