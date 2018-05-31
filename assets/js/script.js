@@ -7,17 +7,6 @@ document.addEventListener('DOMContentLoaded', function(event) {
     window.location.href = "http://thrivingcities.com/";
   });
 
-  /* Event Animation */
-  const events = Array.from(document.getElementsByClassName('event'));
-  events.forEach(function(event) {
-    event.addEventListener('click', function() {
-      event.classList.add('zoomInOut');
-      setTimeout(function() {
-        event.classList.remove('zoomInOut');
-      }, 300);
-    });
-  });
-
   /* Button Click Animation */
   const subscribeButton = document.querySelector('.subscribeButton');
   subscribeButton.addEventListener('click', function() {
