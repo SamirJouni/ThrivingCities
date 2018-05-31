@@ -44,9 +44,9 @@ document.addEventListener('DOMContentLoaded', function(event) {
   events.forEach(function(event) {
     event.addEventListener('click', function() {
       if (!mouseOverButton) {
-        event.classList.add('zoomInOut');
+        event.classList.add('zoomInOut', 'transparent');
         setTimeout(function() {
-          event.classList.remove('zoomInOut');
+          event.classList.remove('zoomInOut', 'transparent');
         }, 300);
 
         clickedEventId = document.getElementById('event' + events.indexOf(event));
