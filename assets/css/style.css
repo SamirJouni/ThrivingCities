@@ -382,6 +382,7 @@ html, body {
     font-weight: 100;
     font-size: 1.1vw;
     width: 15vw;
+    color: #ffffff;
     caret-color: #ffffff;
 }
 .emailInput::placeholder {
@@ -393,6 +394,9 @@ html, body {
   color: #ffffff;
   position:absolute;
 }*/
+.copyright {
+  margin-top: 2vw;
+}
 .zoomInOut {
   animation: zoominout .3s forwards;
 }
@@ -553,5 +557,8 @@ html, body {
     font-size: 5vw;
     width: 100%;
     text-align: center;
+  }
+  .copyright {
+    margin-top: 8vw;
   }
 }
