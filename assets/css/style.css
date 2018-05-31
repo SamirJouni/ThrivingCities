@@ -566,7 +566,7 @@ html, body {
   .emailInput {
     padding: 2vw 2vw;
     font-size: 5vw;
-    width: 100%;
+    width: 100vw;
   }
   .submit {
     font-size: 9vw;
