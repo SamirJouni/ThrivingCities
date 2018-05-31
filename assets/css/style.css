@@ -311,7 +311,7 @@ html, body {
   padding: 1.2vw 3vw;
   background: #000000;
   color: #ffffff;
-  border: .13vw solid #ffffff;
+  border: 0;
   border-radius: 50vw;
   margin-left: auto;
   margin-right: auto;
@@ -467,10 +467,50 @@ html, body {
   }
   .subscribeButton {
     font-size: 3vw;
+    font-weight: 200;
     margin-top: 10vw;
     margin-left: 0;
     padding: 2vw 4vw;
     border-width: .2vw;
     margin-bottom: 7vw;
 }
+  .eventsLine p {
+  font-size: 7vw;
+ }
+  .event {
+   flex-direction: column;
+   align-items: center;
+  }
+  .eventImage img {
+    max-width: 90vw;
+    max-height: none;
+  }
+  .eventTitle {
+    font-size: 5vw;
+  }
+  .eventDetails {
+    font-size: 2.5vw;
+  }
+  .description {
+    font-size: 3vw;
+  }
+  .readMore {
+  padding-top: 2vw;
+  font-size: 2.5vw;
+  width: 20%;
+  }
+  .eventDetailsExpanded {
+    font-size: 3vw;
+  }
+  .eventDescriptionTitle {
+    font-size: 4vw;
+  }
+  .signUpButton {
+    font-size: 4vw;
+    font-weight: 200;
+    margin-top: 3vw;
+    padding: 2vw 5vw;
+    border-width: .2vw;
+    margin-bottom: 7vw;
+  }
 }
