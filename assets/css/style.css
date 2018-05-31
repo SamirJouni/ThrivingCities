@@ -73,7 +73,7 @@ html, body {
 /* Navbar positioning and styling */
 
 .navbar {
-  padding-top: 1vh;
+  padding-top: .5vw;
 }
 
 .navbar a {
@@ -98,9 +98,9 @@ html, body {
   content: '';
   position: absolute;
   width: 0%;
-  height: .5vh;
+  height: .23vw;
   top: 50%;
-  margin-top: -0.05vh;
+  margin-top: -0.008vw;
   background: #000;
 }
 
@@ -131,7 +131,7 @@ html, body {
 */
 
 .invitation {
-  margin-top: 31vh;
+  margin-top: 15vw;
   margin-left: 8vw;
 }
 
@@ -146,9 +146,9 @@ html, body {
   font-size: 2vw;
   font-weight: 100;
   letter-spacing: .1vw;
-  margin-top: 16vh;
+  margin-top: 10vw;
   margin-left: 24vw;
-  padding: 2.3vh 3vw;
+  padding: 1.2vw 3vw;
   background: #000000;
   color: #ffffff;
   border: .13vw solid #ffffff;
@@ -177,7 +177,7 @@ html, body {
   color: #000000;
   text-align: center;
   margin-top: 0;
-  margin-bottom: 20vh;
+  margin-bottom: 8vw;
 }
 
 .events {
@@ -310,6 +310,7 @@ html, body {
     font-weight: 100;
     font-size: 1.1vw;
     width: 15vw;
+    caret-color: #ffffff;
 }
 .emailInput::placeholder {
   color: #ffffff;
