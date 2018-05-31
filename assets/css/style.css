@@ -186,7 +186,8 @@ html, body {
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
-  height: 200vh;
+  height: auto;
+  margin-bottom: 10vw;
 }
 
 .event {
@@ -195,18 +196,18 @@ html, body {
   flex-wrap: nowrap;
   align-items: flex-start;
   justify-content: center;
-  box-shadow: 0 1vh 2vh 0 rgba(0, 0, 0, 0.2), 0 .9vh 4vh 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 .4vw .8vw 0 rgba(0, 0, 0, 0.2), 0 .3vw 1vw 0 rgba(0, 0, 0, 0.19);
   width: 90%;
   transition: all .2s ease-in-out;
 }
 
 .event:hover {
-  box-shadow: 0 1vh 2vh .1vh rgba(0, 0, 0, 0.23), 0 .9vh 4vh .2vh rgba(0, 0, 0, 0.21);
+  box-shadow: 0 .4vw .8vw .07vw rgba(0, 0, 0, 0.23), 0 .3vw 1vw .1vw rgba(0, 0, 0, 0.21);
 }
 
 .eventImage img {
   max-width: 20vw;
-  max-height: 28vh;
+  max-height: 20vw;
   width: auto;
   height: auto;
 }
@@ -214,13 +215,13 @@ html, body {
 .eventTextContainer {
   font-family: 'Roboto', sans-serif;
   color: #000000;
-  padding: .5vh 1vw;
+  padding: .4vw 1vw;
 }
 
 .eventTitle {
   font-size: 2vw;
   font-weight: 100;
-  padding-bottom: .3vh;
+  padding-bottom: .15vw;
 }
 
 .eventDetails {
@@ -229,7 +230,7 @@ html, body {
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;
-  padding: 1vh 0;
+  padding: .5vw 0;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -241,12 +242,12 @@ html, body {
 }
 
 .description {
-  padding-top: 3vh;
+  padding-top: 1.5vw;
   font-size: 1.4vw;
 }
 
 .readMore {
-  padding-top: 2vh;
+  padding-top: 1vw;
   font-size: 1.1vw;
   color: #000;
   width: 10%;
@@ -281,13 +282,13 @@ html, body {
   text-decoration: none;
   color: #ffffff;
   margin-right: 2vw;
-  padding-top: 2vh;
+  padding-top: .8vw;
 }
 .footerLinks a:hover {
   text-decoration: underline;
 }
 .footerPadding {
-  padding: 2vh;
+  padding: .8vw;
 }
 .footerMarginLeft {
  margin-left: 1vw;
@@ -300,7 +301,7 @@ html, body {
   height: auto;
 }
 .leftFooterSideMargin {
-  margin-top: 2vh;
+  margin-top: .8vw;
 }
 .emailInput {
     border: .13vw solid #ffffff;
@@ -367,27 +368,6 @@ html, body {
     /* To Scale The SVG Properly in IE */
   }
   .eventsLine p {
-    margin-top: 6vh;
-  }
-}
-
-@media all and (min-width: 700px) and (max-width: 800px) {
-  .hero {
-    height: 100vh;
-    /* To Scale The SVG Properly on that screen size in IE */
-  }
-}
-
-@media all and (min-width: 801px) and (max-width: 1024px) {
-  .hero {
-    height: 70vh;
-    /* To Scale The SVG Properly on that screen size in IE */
-  }
-}
-
-@media all and (min-width: 1920px) and (max-width: 1440px) {
-  .hero {
-    height: 100vh;
-    /* To Scale The SVG Properly on that screen size in IE */
+    margin-top: 2vw;
   }
 }
