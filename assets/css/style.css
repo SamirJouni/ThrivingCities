@@ -516,4 +516,30 @@ html, body {
     border-width: .2vw;
     margin-bottom: 7vw;
   }
+  .footer {
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-size: 4vw;
+  }
+  .footerMarginRight {
+    margin-right: 0;
+  }
+  .footerMarginLeft {
+    margin-left: 0;
+  }
+  .footerLinks {
+    align-items: center;
+  }
+  .footerPadding {
+    padding: 4vw;
+  }
+  .uniLogo {
+    width: 60%;
+  }
+  .emailInput {
+    padding: 2vw 2vw;
+    font-size: 3vw;
+    width: 100%;
+  }
 }
