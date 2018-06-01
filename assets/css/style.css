@@ -1,12 +1,5 @@
 /*
 
-font-family: 'Roboto', sans-serif;
-font-family: 'Open Sans', sans-serif;
-
-*/
-
-/*
-
 Some Boilerplate Code That I usually use in projects To Prevent
 Unexpected Behavior From Browsers' User Agent Style Sheet. In Other Words,
 This Is a CSS Reset.
@@ -71,7 +64,6 @@ html, body {
 }
 
 /* Navbar positioning and styling */
-
 .navbar {
   padding-top: .5vw;
 }
@@ -93,7 +85,6 @@ html, body {
 }
 
 /* Navbar Strike-Through Animation styling*/
-
 .navbar a:before, .navbar a:after {
   content: '';
   position: absolute;
@@ -129,7 +120,6 @@ html, body {
 /*
   This Is The Styling For The Invitation Line On The Hero Division
 */
-
 .invitation {
   margin-top: 15vw;
   margin-left: 8vw;
@@ -164,8 +154,7 @@ html, body {
   border-color: rgba(0, 0, 0, 0);
 }
 
-/* Events */
-
+/* Events  Styling */
 .eventsContainer {
   width: 100%;
   height: auto;
@@ -260,7 +249,8 @@ html, body {
   cursor: pointer;
   text-decoration: underline;
 }
-/* Event Expanded */
+
+/* Events Expanded Styling */
 .eventTitleExpanded {
   text-align: center;
   font-size: 2.5vw;
@@ -329,7 +319,8 @@ html, body {
 .dontDisplay {
   display: none;
 }
-/* footer */
+
+/* footer Styling */
 .footer {
   display: flex;
   flex-direction: row;
@@ -405,7 +396,8 @@ html, body {
 .copyright {
   margin-top: 2vw;
 }
-/* Animations */
+
+/* Animations Used On The Webpage */
 .zoomInOut {
   animation: zoominout .3s forwards;
 }
@@ -448,6 +440,7 @@ html, body {
   opacity: 0;
 }
 
+/* Media Queries To Fix IE Compatibility */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   /* IE Copatibility Fixes */
   .hero {
