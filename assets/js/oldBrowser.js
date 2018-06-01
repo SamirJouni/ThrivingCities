@@ -1,3 +1,11 @@
+/*
+  This File detects if the user is running Internet Explorer, which is an outdated browser by today's standards.
+  The user will not be able to enjoy the full experience of this modern webpage on IE, so they will get a message
+  giving them the option to update for free to a more modern browser of their choice, with easy to follow instructions
+  on how to upgrade.
+
+*/
+
 document.addEventListener('DOMContentLoaded', function(event) {
   "use strict";
 
