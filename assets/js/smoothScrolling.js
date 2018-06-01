@@ -1,3 +1,28 @@
+/*
+  # This function is responsible for the smooth scrolling on the page.
+    To observe it working, simply press the Events option in the navbar
+    and it will scroll you down to the latest events in a very smooth
+    manner.
+
+  # The function Accepts two arguments, the first being an object that
+    represents the target destination. Using the Class-name, or Id of
+    the element is not enough, you have to get the object that represents
+    the element using:
+
+    document.getElemenetById('Id of element');
+    or
+    document.getElementsByClassName('Class-name of the element');
+    or
+    many of the other methods to get the object representing the element.
+
+    That object then would be passed as an argument for the destination.
+
+
+  # As for the duration, it is a simple numeric value, measured in milliseconds.
+    If no value is specified, it will run at 800ms by default.
+
+*/
+
 function smoothScrollTo(destination, duration) {
   "use strict";
 

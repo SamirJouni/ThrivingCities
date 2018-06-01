@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function(event) {
   "use strict";
+
   /* Smooth Scroll To Events Section */
   const eventsTrigger = document.getElementById('eventsTrigger');
   const destination = document.getElementById('EVENTS');
@@ -39,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
   });
   /* Event Animation */
   const events = Array.from(document.getElementsByClassName('event'));
-  var clickedEventId = 0;
+  var clickedEvent = 0;
 
   events.forEach(function(event) {
     event.addEventListener('click', function() {
@@ -49,15 +50,14 @@ document.addEventListener('DOMContentLoaded', function(event) {
           event.classList.remove('zoomInOut', 'transparent');
         }, 300);
 
-        clickedEventId = document.getElementById('event' + events.indexOf(event));
+        clickedEvent = document.getElementById('event' + events.indexOf(event));
 
         /* Expand Event */
-
         setTimeout(function() {
-          const eventExpandedElements = Array.from(clickedEventId.querySelectorAll ('.dontDisplayInitially'));
-          const eventElementsToHide = Array.from(clickedEventId.querySelectorAll ('.hideOnExpand'));
-          const eventTitle = Array.from(clickedEventId.querySelectorAll ('.eventTitle'));
-          const eventImage = Array.from(clickedEventId.querySelectorAll ('.eventImage'));
+          const eventExpandedElements = Array.from(clickedEvent.querySelectorAll ('.dontDisplayInitially'));
+          const eventElementsToHide = Array.from(clickedEvent.querySelectorAll ('.hideOnExpand'));
+          const eventTitle = Array.from(clickedEvent.querySelectorAll ('.eventTitle'));
+          const eventImage = Array.from(clickedEvent.querySelectorAll ('.eventImage'));
 
           eventExpandedElements.forEach(function (element) {
               element.classList.toggle('dontDisplay');
