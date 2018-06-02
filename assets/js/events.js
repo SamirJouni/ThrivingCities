@@ -9,6 +9,19 @@ document.addEventListener('DOMContentLoaded', function(event) {
     smoothScrollTo(destination);
   });
 
+  /* Detect if Mouse if Over The Visit Website Link */
+  const websites = Array.from(document.querySelectorAll('.website'));
+  var mouseOverWebsite = false;
+
+  websites.forEach(function(website){
+
+    website.addEventListener('mouseover', function() {
+      mouseOverWebsite = true;
+    });
+    website.addEventListener('mouseout', function () {
+      mouseOverWebsite = false;
+    });
+  });
   /* Detect if Mouse if Over Sign Up Button */
   const signUpButton = Array.from(document.querySelectorAll('.signUpButton'));
   var mouseOverButton = false;
@@ -44,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
 
   events.forEach(function(event) {
     event.addEventListener('click', function() {
-      if (!mouseOverButton) {
+      if (!mouseOverButton && !mouseOverWebsite) {
         event.classList.add('zoomInOut', 'transparent');
         setTimeout(function() {
           event.classList.remove('zoomInOut', 'transparent');
