@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
       setTimeout(function(){
         window.location.href =
           'http://iasc-culture.us11.list-manage.com/subscribe/post?u=0bd38571820ea697cfb101c21&id=618afc487a';
-      }, 800);
+      }, 400);
     });
 
   });
