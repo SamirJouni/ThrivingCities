@@ -1,6 +1,6 @@
 /*
   # This function is responsible for the smooth scrolling on the page.
-    To observe it working, simply press the Events option in the navbar
+    To observe it working, simply press the Pricing option in the navbar
     and it will scroll you down to the latest events in a very smooth
     manner.
 
