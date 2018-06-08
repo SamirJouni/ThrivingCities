@@ -54,5 +54,23 @@
                                 - logoWithText.svg: This is the logo on the upper left hand corner of the page.
 
 
-    #### All files not mentioned here are unnecessary for the website. You may delete them or keep them for other
-        projects. It's your choice.
+    #### All files not mentioned here are unnecessary for the website. You may delete them or keep them for other projects. It's your choice.
+
+## Minification:
+
+  Please don't forget to bundle up and minify all
+  css and js files after modifying them according to
+  your needs. It will reduce the time it takes to load
+  up the page by a lot.
+
+  After doing that, place the css files between style tags in
+  the head of this document. And the js files between script
+  tags just above the closing body tag of this document.
+
+For bundling css or js, simply copy and paste all contents of
+the files into the minifier in one go. But minify CSS and JS
+separately. I recommend the following website to minify your css
+and js: https://www.minifier.org
+
+For minifying the html document, I recommend:
+http://kangax.github.io/html-minifier/
